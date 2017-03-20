@@ -60,7 +60,7 @@
           return;
         }
         this.onlyContent = !this.onlyContent;
-        this.$emit('toggle');
+        this.$emit('toggle',this.onlyContent);
       }
     },
     computed: {
